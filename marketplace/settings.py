@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-pzo77m&dapdgjc4mr7nodug5ih2g=q4tjg4z%ac+=61vu#+jc$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['marketplace-app-0rti.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['marketplace-app-0rti.onrender.com', '127.0.0.1', 'localhost']
+
+CSRF_TRUSTED_ORIGINS = ['https://marketplace-app-0rti.onrender.com']
+
 
 LOGIN_URL ='/login/'
 LOGIN_REDIRECT_URL ='/'
