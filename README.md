@@ -97,6 +97,17 @@ Open your browser and navigate to `http://localhost:8000` to access the app.
 
 ---
 
+## Live Demo
+
+This application is deployed and live on Render. You can access the live version here: 
+[Marketplace app](https://marketplace-app-0rti.onrender.com)
+
+<p align="center">
+  <img src="UI.png" alt="UI Preview" width="480">
+</p>
+
+---
+
 ## Environment & Configuration
 
 - **Database**: Default is SQLite configured in `settings.py`. For production, configure a different database and update `DATABASES`.
@@ -141,4 +152,4 @@ This project is provided for educational purposes. Make sure to secure sensitive
 
 ## Credits
 
-Developed by the project author using Django and Tailwind CSS, showcasing Django apps integration for e-commerce style marketplace and real-time conversations.
+Developed using Django and Tailwind CSS, showcasing Django apps integration for e-commerce style marketplace and real-time conversations.
