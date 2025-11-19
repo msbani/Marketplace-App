@@ -1,6 +1,6 @@
 # Marketplace Application
 
-Marketplace is a Django-based web application that allows users to list items for sale, browse categories, and engage in conversations related to items. It features user authentication, item management, messaging, and a dashboard to track user listings.
+Marketplace is a Django based web application that allows users to list items for sale, browse categories, and engage in conversations related to items. It features user authentication, item management, messaging, and a dashboard to track user listings.
 
 ---
 
@@ -21,9 +21,9 @@ Marketplace is a Django-based web application that allows users to list items fo
 ### Modules
 
 - **core**: Handles main site pages, authentication forms, login, signup, and basic views.
-- **item**: Manages item models, categories, forms for item creation/editing, and item-related views and templates.
+- **item**: Manages item models, categories, forms for item creation/editing, and item related views and templates.
 - **conversation**: Implements messaging between users about items, including models for Conversation and Messages, views, and templates.
-- **dashboard**: User-specific page to manage their item listings.
+- **dashboard**: User specific page to manage their item listings.
 - **templates/core**: Base HTML templates for site layout.
 - **static & media**: Static assets with media uploads for item images.
 
@@ -36,7 +36,7 @@ Marketplace is a Django-based web application that allows users to list items fo
 - **forms.py** - Django forms for user signup/login and item creation/edit.
 - **views.py** - Core logic for handling requests and rendering templates.
 - **templates** - HTML templates with Tailwind CSS styling for all apps.
-- **manage.py** - Django command-line utility.
+- **manage.py** - Django command line utility.
 
 ---
 
